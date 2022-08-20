@@ -1,0 +1,31 @@
+{
+  "name": "@ezjs/cli",
+  "version": "1.0.0",
+  "description": "CLI Project for ez.js framework.",
+  "main": "src/index.js",
+  "bin": {
+    "@ezjs/ez": "bin/ez",
+    "ez": "bin/ez"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "ez-cli",
+    "ez-js"
+  ],
+  "author": "sunnysyed007",
+  "license": "ISC",
+  "dependencies": {
+    "arg": "^5.0.2",
+    "chalk": "^4.0.0",
+    "esm": "^3.2.25",
+    "inquirer": "^8.0.0",
+    "listr": "^0.14.3",
+    "ncp": "^2.0.0"
+  }
+}

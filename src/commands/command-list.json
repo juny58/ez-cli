@@ -1,0 +1,35 @@
+[
+    {
+        "command": "createApp",
+        "path": "commands/create-app",
+        "isNameRequired": true,
+        "nameIndex": 1,
+        "allowedFlags": ["--javascript", "--js", "--typescript", "--ts", "--git", "--yes", "--y"]
+    },
+    {
+        "command": "generate",
+        "path": "commands/generate",
+        "isNameRequired": true,
+        "nameIndex": 2,
+        "allowedFlags": []
+    },
+    {
+        "command": "g",
+        "path": "commands/generate",
+        "isNameRequired": true,
+        "nameIndex": 2,
+        "allowedFlags": []
+    },
+    {
+        "command": "serve",
+        "path": "commands/serve",
+        "isNameRequired": false,
+        "allowedFlags": ["--port", "--p"]
+    },
+    {
+        "command": "s",
+        "path": "commands/serve",
+        "isNameRequired": false,
+        "allowedFlags": ["--port", "--p"]
+    }
+]
